@@ -9,6 +9,8 @@ signals/
 generated_scripts/
 .env
 *.env
+.env.*
+!.env.example
 
 # Build artifacts
 dist/
