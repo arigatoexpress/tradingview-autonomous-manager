@@ -2,7 +2,7 @@
 #    uv pip compile requirements.txt -o requirements.lock
 aiohappyeyeballs==2.6.2
     # via aiohttp
-aiohttp==3.11.0
+aiohttp==3.14.0
     # via -r requirements.txt
 aiosignal==1.4.0
     # via aiohttp
@@ -29,7 +29,7 @@ click==8.4.1
     # via uvicorn
 cryptography==48.0.0
     # via paramiko
-fastapi==0.115.0
+fastapi==0.115.2
     # via -r requirements.txt
 frozenlist==1.8.0
     # via
@@ -76,18 +76,20 @@ pyee==12.0.0
     # via playwright
 pynacl==1.6.2
     # via paramiko
-python-dotenv==1.0.1
+python-dotenv==1.2.2
     # via
     #   -r requirements.txt
     #   uvicorn
-python-multipart==0.0.17
+python-multipart==0.0.27
     # via -r requirements.txt
 pyyaml==6.0.2
     # via
     #   -r requirements.txt
     #   uvicorn
-starlette==0.38.6
-    # via fastapi
+starlette==0.40.0
+    # via
+    #   -r requirements.txt
+    #   fastapi
 typing-extensions==4.15.0
     # via
     #   fastapi
